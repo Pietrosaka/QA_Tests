@@ -33,6 +33,7 @@ Este projeto implementa e testa o cálculo do **APDEX (Application Performance I
 
 ### **1. Teste Básico - Apdex 90%**
 ```java
+
 @Test
 public void calcularApdex() {
     int satisfeitos = 500255; // 90% de 555839
@@ -82,7 +83,7 @@ public void validarApdexRuim() {
 
     assertEquals(0.60, valor, 0.01);
 }
-
+### *** Teste Inaceitável - Apdex 23% ***
 @Test
 public void validarApdexInaceitavel() {
     int satisfeitos = 127842; // 23% de 555839
@@ -94,13 +95,13 @@ public void validarApdexInaceitavel() {
 }
 
 📈 Saídas Esperadas dos Testes
-Teste	Status	Tempo	Score Apdex	Usuários Satisfeitos	Usuários Tolerados
-calcularApdex	✅ PASS	~5ms	0.90	500,255	0
-validarApdexExcelente	✅ PASS	~3ms	0.96	533,605	5,057
-validarApdexBom	✅ PASS	~2ms	0.85	472,463	0
-validarApdexRegular	✅ PASS	~2ms	0.70	389,087	0
-validarApdexRuim	✅ PASS	~2ms	0.60	333,503	0
-validarApdexInaceitavel	✅ PASS	~2ms	0.23	127,842	0
+Teste	                Status	    Tempo	Score Apdex	    Usuários Satisfeitos	Usuários Tolerados
+calcularApdex	        ✅ PASS	    ~5ms	   0.90	                500,255	                0
+validarApdexExcelente	✅ PASS	    ~3ms	   0.96	                533,605	              5,057
+validarApdexBom	        ✅ PASS	    ~2ms	   0.85	                472,463	                0
+validarApdexRegular	    ✅ PASS	    ~2ms	   0.70	                389,087	                0
+validarApdexRuim	    ✅ PASS	    ~2ms	   0.60	                333,503	                0
+validarApdexInaceitavel	✅ PASS	    ~2ms	   0.23	                127,842	                0
 
 👨‍💻 Autor
 
