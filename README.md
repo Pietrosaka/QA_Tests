@@ -101,7 +101,7 @@ validarApdexExcelente	✅ PASS	~3ms	   0.96	                533,605	            
 validarApdexBom	        ✅ PASS	    ~2ms	   0.85	                472,463	                0
 validarApdexRegular	    ✅ PASS	    ~2ms	   0.70	                389,087	                0
 validarApdexRuim	    ✅ PASS	    ~2ms	   0.60	                333,503	                0
-validarApdexInaceitavel	✅ PASS	 ~2ms	   0.23	                127,842	                0
+validarApdexInaceitavel	✅ PASS	~2ms	   0.23	                127,842	                0
 
 👨‍💻 Autor
 
