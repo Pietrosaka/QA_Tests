@@ -83,7 +83,7 @@ public void validarApdexRuim() {
 
     assertEquals(0.60, valor, 0.01);
 }
-### *** Teste Inaceitável - Apdex 23% ***
+
 @Test
 public void validarApdexInaceitavel() {
     int satisfeitos = 127842; // 23% de 555839
